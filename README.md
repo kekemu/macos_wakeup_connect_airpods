@@ -1,6 +1,9 @@
 ## mac os wakeup connect airpods
 - connect to airpods when mac wakeup
   - It search airpods on bluetooth menu by keyword "Pods"
+- C&P from [kevinjalbert/bluetooth_headphones.scpt](https://gist.github.com/kevinjalbert/e39dca94b0e0eb63207479519fdfcd65)
+- internally use sleepwatcher_2.2.1
+  - https://www.bernhard-baehr.de
 ### How to use it
 <details><summary>When you set your Mac to use English</summary>
 <p>
