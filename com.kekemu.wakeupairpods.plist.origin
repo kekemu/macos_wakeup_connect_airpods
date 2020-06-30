@@ -7,9 +7,9 @@
     <key>RunAtLoad</key>
     <true />
     <key>StandardOutPath</key>
-    <string>{basPath}/std.out</string>
+    <string>{basePath}/std.out</string>
     <key>StandardErrorPath</key>
-    <string>{basPath}/std.err</string>
+    <string>{basePath}/std.err</string>
     <key>Label</key>
     <string>com.kekemu.wakeupairpods</string>
     <key>ProgramArguments</key>
