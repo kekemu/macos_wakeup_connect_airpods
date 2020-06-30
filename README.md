@@ -9,12 +9,11 @@
 <p>
   <ul>
   <li>Move to "System Preferences > Bluetooth" and check "Show 'bluetooth' on menu bar" to active</li>
-  <li>Execute `registerWakeup_en.sh` on terminal</li>
+  <li>Execute `install.sh en` on terminal</li>
     <ul>
-    <li>Now your mac connect to your airpods automatically until system reboot</li>
-    <li> If you want to make it revive against reboot, add `registerWakeup_en.sh` to Users & Groups Login Items.
-      <p>see https://support.apple.com/guide/mac-help/change-users-groups-login-items-preferences-mtusr003/mac</p>
-    </li>
+    <li>Now your mac connect to your airpods automatically even after system reboot.</li>
+    <li>During installing, or after it, mac os ask you permission. Click ok when you agree.</li>
+    <li>If you want to restore origin, execute `uninstall.sh`</li>
     </ul>
 </p>
 </details>
@@ -23,12 +22,11 @@
 <p>
   <ul>
   <li>"시스템 환경설정 > Bluetooth"로 이동해서 "메뉴 막대에서 Bluetooth 보기" 체크 활성화</li>
-  <li>`registerWakeup_ko.sh`를 터미널에서 실행</li>
+  <li>`install.sh ko`를 터미널에서 실행</li>
     <ul>
-    <li>이제 Mac이 잠자기에서 깨어날 때마다 Bluetooth 메뉴바에서 "Pods"가 포함된 건을 찾아 연결을 시도합니다. 재부팅 되기 전 까지는...</li>
-    <li>재부팅 이후에도 해당 기능을 활성화 시키기 원하신다면 `registerWakeup_ko.sh`를 "시스템 환경설정 > 사용자 및 그룹 > 로그인 항목"에 추가해주세요.
-      <p>다음 페이지를 참고하시면 됩니다. https://support.apple.com/ko-kr/guide/mac-help/mtusr003/mac</p>
-    </li>
+    <li>이제 Mac이 잠자기에서 깨어날 때마다 Bluetooth 메뉴바에서 "Pods"가 포함된 건을 찾아 연결을 시도합니다. (재부팅 이후에도)</li>
+    <li>스크립트 설치 중 혹은 이후에 mac os가 권한을 물어볼 수도 있습니다. 경건한 마음으로 `확인`을 누르도록 하세요.</li>
+    <li>해당 기능을 취소하고 싶다면 `uninstall.sh`를 실행하세요.</li>
     </ul>
 </p>
 </details>
